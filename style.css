@@ -84,6 +84,7 @@ container__titulo {
   font-size: 48px;
   color: var(--branco-principal);
   margin-bottom: 0.1em;
+  margin-right: 0;
 }
 
 .descricao__texto {
@@ -141,6 +142,7 @@ container__titulo {
   list-style-type: none;
   padding: 40px;
   color: var(--branco-principal);
+  margin: 0;
 }
 
 .rodape__lista li a {
@@ -161,9 +163,8 @@ a{
   align-items: center;
   text-align: center;
   font-size: 14px;
-  padding: 0 150px;
   color: var(--cinza-secundario);
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .lista__link a:hover{
